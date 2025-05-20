@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "mlmn68dUpSv3lgsWplK/Ar3vucQuYwDHJYVpEzsZeEo=",
+  "Hash": "eJvDOyebMY174cJyMroPWz7omtkrDv+UKosgHr6xiug=",
   "Source": "KE03_INTDEV_SE_1_Base",
   "BasePath": "_content/KE03_INTDEV_SE_1_Base",
   "Mode": "Default",
@@ -141,6 +141,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/Images/koelvloeistofpomp.png"
+    },
+    {
+      "Identity": "/Users/daanros/MatrixWebShop/KE03_INTDEV_SE_1_Base/wwwroot/Images/logo.png",
+      "SourceId": "KE03_INTDEV_SE_1_Base",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/daanros/MatrixWebShop/KE03_INTDEV_SE_1_Base/wwwroot/",
+      "BasePath": "_content/KE03_INTDEV_SE_1_Base",
+      "RelativePath": "Images/logo#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "0qay6zy6st",
+      "Integrity": "yDz8DMS7tMccAVnizLI5+dLotaqsZl03omA3pnZp6KU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/Images/logo.png"
     },
     {
       "Identity": "/Users/daanros/MatrixWebShop/KE03_INTDEV_SE_1_Base/wwwroot/Images/m5-boutje.png",
@@ -1729,6 +1750,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-MCLYhzXSA5v7WAOW2v/MJPN99PLcw4NGYLWnA992sts="
+        }
+      ]
+    },
+    {
+      "Route": "Images/logo.0qay6zy6st.png",
+      "AssetFile": "/Users/daanros/MatrixWebShop/KE03_INTDEV_SE_1_Base/wwwroot/Images/logo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1639681"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yDz8DMS7tMccAVnizLI5+dLotaqsZl03omA3pnZp6KU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 20 May 2025 11:22:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0qay6zy6st"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/logo.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-yDz8DMS7tMccAVnizLI5+dLotaqsZl03omA3pnZp6KU="
+        }
+      ]
+    },
+    {
+      "Route": "Images/logo.png",
+      "AssetFile": "/Users/daanros/MatrixWebShop/KE03_INTDEV_SE_1_Base/wwwroot/Images/logo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1639681"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yDz8DMS7tMccAVnizLI5+dLotaqsZl03omA3pnZp6KU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 20 May 2025 11:22:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-yDz8DMS7tMccAVnizLI5+dLotaqsZl03omA3pnZp6KU="
         }
       ]
     },
