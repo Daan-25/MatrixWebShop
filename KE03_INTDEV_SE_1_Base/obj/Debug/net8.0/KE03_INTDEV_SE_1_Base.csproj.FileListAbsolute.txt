@@ -64,3 +64,4 @@
 /Users/daanros/MatrixWebShop/KE03_INTDEV_SE_1_Base/obj/Debug/net8.0/KE03_INTDEV_SE_1_Base.pdb
 /Users/daanros/MatrixWebShop/KE03_INTDEV_SE_1_Base/obj/Debug/net8.0/KE03_INTDEV_SE_1_Base.genruntimeconfig.cache
 /Users/daanros/MatrixWebShop/KE03_INTDEV_SE_1_Base/obj/Debug/net8.0/ref/KE03_INTDEV_SE_1_Base.dll
+/Users/daanros/MatrixWebShop/KE03_INTDEV_SE_1_Base/obj/Debug/net8.0/KE03_INTDEV_SE_1_Base.sourcelink.json

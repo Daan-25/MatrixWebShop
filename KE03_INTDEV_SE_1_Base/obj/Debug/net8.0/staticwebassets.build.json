@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "wwvjb9DfJxujhEjQcD0ubZbym8b222lA+Yq7g6eff5c=",
+  "Hash": "HoV880hLWhcWYlj0EYYTnugycibDVyX3eM1Zj8Jz4iM=",
   "Source": "KE03_INTDEV_SE_1_Base",
   "BasePath": "_content/KE03_INTDEV_SE_1_Base",
   "Mode": "Default",
@@ -99,6 +99,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/favicon.ico"
+    },
+    {
+      "Identity": "/Users/daanros/MatrixWebShop/KE03_INTDEV_SE_1_Base/wwwroot/Images/banaan-vierkant.jpg",
+      "SourceId": "KE03_INTDEV_SE_1_Base",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/daanros/MatrixWebShop/KE03_INTDEV_SE_1_Base/wwwroot/",
+      "BasePath": "_content/KE03_INTDEV_SE_1_Base",
+      "RelativePath": "Images/banaan-vierkant#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "hmzpu3el8v",
+      "Integrity": "mWp1sZl6PXt2QbIdxWTADo0TVllpuDVX2IBblSumWM4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/Images/banaan-vierkant.jpg"
     },
     {
       "Identity": "/Users/daanros/MatrixWebShop/KE03_INTDEV_SE_1_Base/wwwroot/js/site.js",
@@ -1481,6 +1502,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="
+        }
+      ]
+    },
+    {
+      "Route": "Images/banaan-vierkant.hmzpu3el8v.jpg",
+      "AssetFile": "/Users/daanros/MatrixWebShop/KE03_INTDEV_SE_1_Base/wwwroot/Images/banaan-vierkant.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "29212"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mWp1sZl6PXt2QbIdxWTADo0TVllpuDVX2IBblSumWM4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 20 May 2025 08:50:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hmzpu3el8v"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/banaan-vierkant.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-mWp1sZl6PXt2QbIdxWTADo0TVllpuDVX2IBblSumWM4="
+        }
+      ]
+    },
+    {
+      "Route": "Images/banaan-vierkant.jpg",
+      "AssetFile": "/Users/daanros/MatrixWebShop/KE03_INTDEV_SE_1_Base/wwwroot/Images/banaan-vierkant.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "29212"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mWp1sZl6PXt2QbIdxWTADo0TVllpuDVX2IBblSumWM4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 20 May 2025 08:50:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-mWp1sZl6PXt2QbIdxWTADo0TVllpuDVX2IBblSumWM4="
         }
       ]
     },
