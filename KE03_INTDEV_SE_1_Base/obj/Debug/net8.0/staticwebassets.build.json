@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "NLm4adNLr2nXAixbQYoYooFhZ3AejR3f5NaF5ZpxwgM=",
+  "Hash": "mlmn68dUpSv3lgsWplK/Ar3vucQuYwDHJYVpEzsZeEo=",
   "Source": "KE03_INTDEV_SE_1_Base",
   "BasePath": "_content/KE03_INTDEV_SE_1_Base",
   "Mode": "Default",
@@ -94,8 +94,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "61n19gt1b8",
-      "Integrity": "Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM=",
+      "Fingerprint": "2o6ay74wft",
+      "Integrity": "Ql4g0OKze3pcGKUUgkDLIOy6AN4hHIi4mQ3qGpeM2Cw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/favicon.ico"
@@ -1487,7 +1487,7 @@
       ]
     },
     {
-      "Route": "favicon.61n19gt1b8.ico",
+      "Route": "favicon.2o6ay74wft.ico",
       "AssetFile": "/Users/daanros/MatrixWebShop/KE03_INTDEV_SE_1_Base/wwwroot/favicon.ico",
       "Selectors": [],
       "ResponseHeaders": [
@@ -1497,7 +1497,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5430"
+          "Value": "145875"
         },
         {
           "Name": "Content-Type",
@@ -1505,11 +1505,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM=\""
+          "Value": "\"Ql4g0OKze3pcGKUUgkDLIOy6AN4hHIi4mQ3qGpeM2Cw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 23 Apr 2025 14:14:16 GMT"
+          "Value": "Tue, 20 May 2025 11:27:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1519,7 +1519,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "61n19gt1b8"
+          "Value": "2o6ay74wft"
         },
         {
           "Name": "label",
@@ -1527,7 +1527,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="
+          "Value": "sha256-Ql4g0OKze3pcGKUUgkDLIOy6AN4hHIi4mQ3qGpeM2Cw="
         }
       ]
     },
@@ -1542,7 +1542,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5430"
+          "Value": "145875"
         },
         {
           "Name": "Content-Type",
@@ -1550,11 +1550,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM=\""
+          "Value": "\"Ql4g0OKze3pcGKUUgkDLIOy6AN4hHIi4mQ3qGpeM2Cw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 23 Apr 2025 14:14:16 GMT"
+          "Value": "Tue, 20 May 2025 11:27:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1564,7 +1564,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="
+          "Value": "sha256-Ql4g0OKze3pcGKUUgkDLIOy6AN4hHIi4mQ3qGpeM2Cw="
         }
       ]
     },
