@@ -1,1 +1,2 @@
-# KE03_INTDEV_SE_1_Base
+# Matrix Inc.
+Dit is de Matrix Inc. webshop github repo.
