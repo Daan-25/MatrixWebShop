@@ -1,0 +1,12 @@
+/Users/daanros/MatrixWebShop/DataAccessLayer/bin/Debug/net8.0/DataAccessLayer.deps.json
+/Users/daanros/MatrixWebShop/DataAccessLayer/bin/Debug/net8.0/DataAccessLayer.dll
+/Users/daanros/MatrixWebShop/DataAccessLayer/bin/Debug/net8.0/DataAccessLayer.pdb
+/Users/daanros/MatrixWebShop/DataAccessLayer/obj/Debug/net8.0/DataAccessLayer.csproj.AssemblyReference.cache
+/Users/daanros/MatrixWebShop/DataAccessLayer/obj/Debug/net8.0/DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+/Users/daanros/MatrixWebShop/DataAccessLayer/obj/Debug/net8.0/DataAccessLayer.AssemblyInfoInputs.cache
+/Users/daanros/MatrixWebShop/DataAccessLayer/obj/Debug/net8.0/DataAccessLayer.AssemblyInfo.cs
+/Users/daanros/MatrixWebShop/DataAccessLayer/obj/Debug/net8.0/DataAccessLayer.csproj.CoreCompileInputs.cache
+/Users/daanros/MatrixWebShop/DataAccessLayer/obj/Debug/net8.0/DataAccessLayer.dll
+/Users/daanros/MatrixWebShop/DataAccessLayer/obj/Debug/net8.0/refint/DataAccessLayer.dll
+/Users/daanros/MatrixWebShop/DataAccessLayer/obj/Debug/net8.0/DataAccessLayer.pdb
+/Users/daanros/MatrixWebShop/DataAccessLayer/obj/Debug/net8.0/ref/DataAccessLayer.dll
