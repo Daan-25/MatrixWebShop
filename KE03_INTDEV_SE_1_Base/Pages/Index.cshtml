@@ -12,12 +12,26 @@
         <th>Prijs</th>
     </tr>
     </thead>
+    <tbody>
     @foreach (var c in Model.Parts)
     {        
         <tr>
-            <td><img style="width: 100px; height: 100px;" src="@c.Img" /></td>
-            <td>@Html.DisplayName(c.Name)</td>
-            <td>@Html.DisplayName(c.Price.ToString())</td>
+            <td>
+                <a asp-page="/Parts" asp-route-id="@c.Id" class="table-link">
+                    <img style="width: 100px; height: 100px;" src="@c.Img"/>
+                </a>
+            </td>
+            <td>
+                <a asp-page="/Parts" asp-route-id="@c.Id" class="table-link">
+                    @Html.DisplayName(c.Name)
+                </a>
+            </td>
+            <td>
+                <a>
+                    @Html.DisplayName(c.Price.ToString())
+                </a>
+            </td>
         </tr>
     }
+    </tbody>
 </table>
