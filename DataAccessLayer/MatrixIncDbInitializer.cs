@@ -40,18 +40,18 @@ namespace DataAccessLayer
 
             var products = new Product[]
             {
-                new Product { Name = "Nebuchadnezzar", Description = "Het schip waarop Neo voor het eerst de echte wereld leert kennen", Price = 10000.00m, Img = "/Images/banaan-vierkant.jpg"},
-                new Product { Name = "Jack-in Chair", Description = "Stoel met een rugsteun en metalen armen waarin mensen zitten om ingeplugd te worden in de Matrix via een kabel in de nekpoort", Price = 500.50m, Img = "/Images/banaan-vierkant.jpg" },
-                new Product { Name = "EMP (Electro-Magnetic Pulse) Device", Description = "Wapentuig op de schepen van Zion", Price = 129.99m, Img = "/Images/banaan-vierkant.jpg"}
+                new Product { Name = "Nebuchadnezzar", Description = "Het schip waarop Neo voor het eerst de echte wereld leert kennen", Price = 10000.00m},
+                new Product { Name = "Jack-in Chair", Description = "Stoel met een rugsteun en metalen armen waarin mensen zitten om ingeplugd te worden in de Matrix via een kabel in de nekpoort", Price = 500.50m},
+                new Product { Name = "EMP (Electro-Magnetic Pulse) Device", Description = "Wapentuig op de schepen van Zion", Price = 129.99m}
             };
             context.Products.AddRange(products);
 
             var parts = new Part[]
             {
-                new Part { Name = "Tandwiel", Description = "Overdracht van rotatie in bijvoorbeeld de motor of luikmechanismen"},
-                new Part { Name = "M5 Boutje", Description = "Bevestiging van panelen, buizen of interne modules"},
-                new Part { Name = "Hydraulische cilinder", Description = "Openen/sluiten van zware luchtsluizen of bewegende onderdelen"},
-                new Part { Name = "Koelvloeistofpomp", Description = "Koeling van de motor of elektronische systemen."}
+                new Part { Name = "Tandwiel", Description = "Overdracht van rotatie in bijvoorbeeld de motor of luikmechanismen", Img = "/Images/tandwiel.png", Price = 27},
+                new Part { Name = "M5 Boutje", Description = "Bevestiging van panelen, buizen of interne modules", Img = "/Images/m5-boutje.png", Price = 25},
+                new Part { Name = "Hydraulische cilinder", Description = "Openen/sluiten van zware luchtsluizen of bewegende onderdelen", Img = "/Images/hydraulische-cilinder.png", Price = 250},
+                new Part { Name = "Koelvloeistofpomp", Description = "Koeling van de motor of elektronische systemen.", Img = "/Images/koelvloeistofpomp.png", Price = 200}
             };
             context.Parts.AddRange(parts);
 

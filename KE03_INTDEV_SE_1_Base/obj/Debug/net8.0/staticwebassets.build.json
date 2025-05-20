@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "HoV880hLWhcWYlj0EYYTnugycibDVyX3eM1Zj8Jz4iM=",
+  "Hash": "NLm4adNLr2nXAixbQYoYooFhZ3AejR3f5NaF5ZpxwgM=",
   "Source": "KE03_INTDEV_SE_1_Base",
   "BasePath": "_content/KE03_INTDEV_SE_1_Base",
   "Mode": "Default",
@@ -101,12 +101,12 @@
       "OriginalItemSpec": "wwwroot/favicon.ico"
     },
     {
-      "Identity": "/Users/daanros/MatrixWebShop/KE03_INTDEV_SE_1_Base/wwwroot/Images/banaan-vierkant.jpg",
+      "Identity": "/Users/daanros/MatrixWebShop/KE03_INTDEV_SE_1_Base/wwwroot/Images/hydraulische-cilinder.png",
       "SourceId": "KE03_INTDEV_SE_1_Base",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/daanros/MatrixWebShop/KE03_INTDEV_SE_1_Base/wwwroot/",
       "BasePath": "_content/KE03_INTDEV_SE_1_Base",
-      "RelativePath": "Images/banaan-vierkant#[.{fingerprint}]?.jpg",
+      "RelativePath": "Images/hydraulische-cilinder#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -115,11 +115,74 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "hmzpu3el8v",
-      "Integrity": "mWp1sZl6PXt2QbIdxWTADo0TVllpuDVX2IBblSumWM4=",
+      "Fingerprint": "7nq6by7n8t",
+      "Integrity": "Y6/lHVL944gKEVrPMIGX0WBWUo7HO10Kz0HzNl5vRrY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/Images/banaan-vierkant.jpg"
+      "OriginalItemSpec": "wwwroot/Images/hydraulische-cilinder.png"
+    },
+    {
+      "Identity": "/Users/daanros/MatrixWebShop/KE03_INTDEV_SE_1_Base/wwwroot/Images/koelvloeistofpomp.png",
+      "SourceId": "KE03_INTDEV_SE_1_Base",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/daanros/MatrixWebShop/KE03_INTDEV_SE_1_Base/wwwroot/",
+      "BasePath": "_content/KE03_INTDEV_SE_1_Base",
+      "RelativePath": "Images/koelvloeistofpomp#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "cdzzknfott",
+      "Integrity": "MCLYhzXSA5v7WAOW2v/MJPN99PLcw4NGYLWnA992sts=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/Images/koelvloeistofpomp.png"
+    },
+    {
+      "Identity": "/Users/daanros/MatrixWebShop/KE03_INTDEV_SE_1_Base/wwwroot/Images/m5-boutje.png",
+      "SourceId": "KE03_INTDEV_SE_1_Base",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/daanros/MatrixWebShop/KE03_INTDEV_SE_1_Base/wwwroot/",
+      "BasePath": "_content/KE03_INTDEV_SE_1_Base",
+      "RelativePath": "Images/m5-boutje#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "4si3d5qg1v",
+      "Integrity": "1ILNuhxI/kIbD1S9kg1HcAlrJIumcH7787XBtfj8t9Q=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/Images/m5-boutje.png"
+    },
+    {
+      "Identity": "/Users/daanros/MatrixWebShop/KE03_INTDEV_SE_1_Base/wwwroot/Images/tandwiel.png",
+      "SourceId": "KE03_INTDEV_SE_1_Base",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/daanros/MatrixWebShop/KE03_INTDEV_SE_1_Base/wwwroot/",
+      "BasePath": "_content/KE03_INTDEV_SE_1_Base",
+      "RelativePath": "Images/tandwiel#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "fs6upt0arh",
+      "Integrity": "30pYekn3fN9uLskkhsI0fNUcvlRh3oOXZ/iJj+1JyY0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/Images/tandwiel.png"
     },
     {
       "Identity": "/Users/daanros/MatrixWebShop/KE03_INTDEV_SE_1_Base/wwwroot/js/site.js",
@@ -1506,8 +1569,8 @@
       ]
     },
     {
-      "Route": "Images/banaan-vierkant.hmzpu3el8v.jpg",
-      "AssetFile": "/Users/daanros/MatrixWebShop/KE03_INTDEV_SE_1_Base/wwwroot/Images/banaan-vierkant.jpg",
+      "Route": "Images/hydraulische-cilinder.7nq6by7n8t.png",
+      "AssetFile": "/Users/daanros/MatrixWebShop/KE03_INTDEV_SE_1_Base/wwwroot/Images/hydraulische-cilinder.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1516,19 +1579,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "29212"
+          "Value": "1747132"
         },
         {
           "Name": "Content-Type",
-          "Value": "image/jpeg"
+          "Value": "image/png"
         },
         {
           "Name": "ETag",
-          "Value": "\"mWp1sZl6PXt2QbIdxWTADo0TVllpuDVX2IBblSumWM4=\""
+          "Value": "\"Y6/lHVL944gKEVrPMIGX0WBWUo7HO10Kz0HzNl5vRrY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 20 May 2025 08:50:43 GMT"
+          "Value": "Tue, 20 May 2025 10:38:18 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1538,21 +1601,21 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "hmzpu3el8v"
+          "Value": "7nq6by7n8t"
         },
         {
           "Name": "label",
-          "Value": "Images/banaan-vierkant.jpg"
+          "Value": "Images/hydraulische-cilinder.png"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-mWp1sZl6PXt2QbIdxWTADo0TVllpuDVX2IBblSumWM4="
+          "Value": "sha256-Y6/lHVL944gKEVrPMIGX0WBWUo7HO10Kz0HzNl5vRrY="
         }
       ]
     },
     {
-      "Route": "Images/banaan-vierkant.jpg",
-      "AssetFile": "/Users/daanros/MatrixWebShop/KE03_INTDEV_SE_1_Base/wwwroot/Images/banaan-vierkant.jpg",
+      "Route": "Images/hydraulische-cilinder.png",
+      "AssetFile": "/Users/daanros/MatrixWebShop/KE03_INTDEV_SE_1_Base/wwwroot/Images/hydraulische-cilinder.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1561,19 +1624,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "29212"
+          "Value": "1747132"
         },
         {
           "Name": "Content-Type",
-          "Value": "image/jpeg"
+          "Value": "image/png"
         },
         {
           "Name": "ETag",
-          "Value": "\"mWp1sZl6PXt2QbIdxWTADo0TVllpuDVX2IBblSumWM4=\""
+          "Value": "\"Y6/lHVL944gKEVrPMIGX0WBWUo7HO10Kz0HzNl5vRrY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 20 May 2025 08:50:43 GMT"
+          "Value": "Tue, 20 May 2025 10:38:18 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1583,7 +1646,253 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-mWp1sZl6PXt2QbIdxWTADo0TVllpuDVX2IBblSumWM4="
+          "Value": "sha256-Y6/lHVL944gKEVrPMIGX0WBWUo7HO10Kz0HzNl5vRrY="
+        }
+      ]
+    },
+    {
+      "Route": "Images/koelvloeistofpomp.cdzzknfott.png",
+      "AssetFile": "/Users/daanros/MatrixWebShop/KE03_INTDEV_SE_1_Base/wwwroot/Images/koelvloeistofpomp.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1820336"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MCLYhzXSA5v7WAOW2v/MJPN99PLcw4NGYLWnA992sts=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 20 May 2025 10:40:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cdzzknfott"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/koelvloeistofpomp.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-MCLYhzXSA5v7WAOW2v/MJPN99PLcw4NGYLWnA992sts="
+        }
+      ]
+    },
+    {
+      "Route": "Images/koelvloeistofpomp.png",
+      "AssetFile": "/Users/daanros/MatrixWebShop/KE03_INTDEV_SE_1_Base/wwwroot/Images/koelvloeistofpomp.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1820336"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MCLYhzXSA5v7WAOW2v/MJPN99PLcw4NGYLWnA992sts=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 20 May 2025 10:40:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-MCLYhzXSA5v7WAOW2v/MJPN99PLcw4NGYLWnA992sts="
+        }
+      ]
+    },
+    {
+      "Route": "Images/m5-boutje.4si3d5qg1v.png",
+      "AssetFile": "/Users/daanros/MatrixWebShop/KE03_INTDEV_SE_1_Base/wwwroot/Images/m5-boutje.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1510163"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1ILNuhxI/kIbD1S9kg1HcAlrJIumcH7787XBtfj8t9Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 20 May 2025 10:35:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4si3d5qg1v"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/m5-boutje.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-1ILNuhxI/kIbD1S9kg1HcAlrJIumcH7787XBtfj8t9Q="
+        }
+      ]
+    },
+    {
+      "Route": "Images/m5-boutje.png",
+      "AssetFile": "/Users/daanros/MatrixWebShop/KE03_INTDEV_SE_1_Base/wwwroot/Images/m5-boutje.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1510163"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1ILNuhxI/kIbD1S9kg1HcAlrJIumcH7787XBtfj8t9Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 20 May 2025 10:35:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1ILNuhxI/kIbD1S9kg1HcAlrJIumcH7787XBtfj8t9Q="
+        }
+      ]
+    },
+    {
+      "Route": "Images/tandwiel.fs6upt0arh.png",
+      "AssetFile": "/Users/daanros/MatrixWebShop/KE03_INTDEV_SE_1_Base/wwwroot/Images/tandwiel.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1719015"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"30pYekn3fN9uLskkhsI0fNUcvlRh3oOXZ/iJj+1JyY0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 20 May 2025 10:31:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "fs6upt0arh"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/tandwiel.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-30pYekn3fN9uLskkhsI0fNUcvlRh3oOXZ/iJj+1JyY0="
+        }
+      ]
+    },
+    {
+      "Route": "Images/tandwiel.png",
+      "AssetFile": "/Users/daanros/MatrixWebShop/KE03_INTDEV_SE_1_Base/wwwroot/Images/tandwiel.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1719015"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"30pYekn3fN9uLskkhsI0fNUcvlRh3oOXZ/iJj+1JyY0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 20 May 2025 10:31:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-30pYekn3fN9uLskkhsI0fNUcvlRh3oOXZ/iJj+1JyY0="
         }
       ]
     },

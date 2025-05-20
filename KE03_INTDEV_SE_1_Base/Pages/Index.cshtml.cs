@@ -8,21 +8,21 @@ namespace KE03_INTDEV_SE_1_Base.Pages
     public class IndexModel : PageModel
     {
         private readonly ILogger<IndexModel> _logger;
-        private readonly IProductRepository _productRepository;
+        private readonly IPartRepository _partsRepository;
 
-        public IList<Product> Products { get; set; }
+        public IList<Part> Parts { get; set; }
 
-        public IndexModel(ILogger<IndexModel> logger, IProductRepository productRepository)
+        public IndexModel(ILogger<IndexModel> logger, IPartRepository partRepository)
         {
             _logger = logger;
-            _productRepository = productRepository;
-            Products = new List<Product>();
+            _partsRepository = partRepository;
+            Parts = new List<Part>();
         }
 
         public void OnGet()
         {            
-            Products = _productRepository.GetAllProducts().ToList();                            
-            _logger.LogInformation($"getting all {Products.Count} products");
+            Parts = _partsRepository.GetAllParts().ToList();                            
+            _logger.LogInformation($"getting all {Parts.Count} parts");
         }
     }
 }
