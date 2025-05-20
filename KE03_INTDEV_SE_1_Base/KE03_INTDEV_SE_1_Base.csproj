@@ -10,8 +10,4 @@
     <ProjectReference Include="..\DataAccessLayer\DataAccessLayer.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <None Include="wwwroot\Images\banaan-vierkant.jpg" />
-  </ItemGroup>
-
 </Project>
