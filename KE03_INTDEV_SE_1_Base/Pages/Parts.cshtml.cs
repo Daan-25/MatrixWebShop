@@ -1,3 +1,5 @@
+using DataAccessLayer;
+using DataAccessLayer;
 using DataAccessLayer.Interfaces;
 using DataAccessLayer.Models;
 using Microsoft.AspNetCore.Mvc;
@@ -19,13 +21,30 @@ namespace KE03_INTDEV_SE_1_Base.Pages
         public async Task<IActionResult> OnGetAsync(int id)
         {
             Part = await _partRepository.GetByIdAsync(id);
-            
-            if (Part == null)
+            if (Part == null) return NotFound();
+            return Page();
+        }
+
+        public async Task<IActionResult> OnPostAddToCartAsync(int id, int quantity = 1)
+        {
+            var part = await _partRepository.GetByIdAsync(id);
+            if (part == null) return NotFound();
+
+            var cart = HttpContext.Session.GetObjectFromJson<List<CartItem>>("cart") ?? new List<CartItem>();
+            var existingItem = cart.FirstOrDefault(c => c.Part.Id == id);
+
+            if (existingItem != null)
             {
-                return NotFound();
+                existingItem.Aantal += quantity;
+            }
+            else
+            {
+                cart.Add(new CartItem { Part = part, Aantal = quantity });
             }
 
-            return Page();
+            HttpContext.Session.SetObjectAsJson("cart", cart);
+
+            return RedirectToPage("/Cart");
         }
     }
 }

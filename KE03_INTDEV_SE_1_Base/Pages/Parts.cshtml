@@ -13,11 +13,15 @@
             </div>
             <div class="col-md-6">
                 <h2>@Model.Part.Name</h2>
-                <p class="h4 text-primary">€@Model.Part.Price</p>
+                <p class="h4 text-primary">€@Model.Part.Price.ToString("F2")</p>
                 <div class="mt-4">
                     <h4>Product Details</h4>
                     <p>@Model.Part.Description</p>
                 </div>
+                <form method="post" asp-page-handler="AddToCart">
+                    <input type="hidden" name="id" value="@Model.Part.Id" />
+                    <button type="submit" class="btn btn-primary mt-3">🛒 Voeg toe aan winkelwagen</button>
+                </form>
             </div>
         </div>
     }
