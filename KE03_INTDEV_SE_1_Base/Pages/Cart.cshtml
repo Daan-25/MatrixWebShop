@@ -51,6 +51,19 @@ else
             <td colspan="3"><strong>Totaal:</strong></td>
             <td><strong>€@Model.TotaalPrijs.ToString("F2")</strong></td>
         </tr>
+        <tr>
+            <td colspan="4">
+                <div class="d-flex gap-3">
+                    <form method="post" asp-page-handler="GaNaarCheckout">
+                        <button type="submit" class="btn btn-success">Verder naar afrekenen</button>
+                    </form>
+
+                    <form method="post" asp-page-handler="GaNaarHome">
+                        <button type="submit" class="btn btn-success">Ga terug naar home</button>
+                    </form>
+                </div>
+            </td>
+        </tr>
         </tfoot>
     </table>
 }

@@ -1,0 +1,13 @@
+@page
+@model KE03_INTDEV_SE_1_Base.Pages.OrderConfirmationModel
+@{
+    ViewData["Title"] = "Bestelling bevestigd";
+}
+
+<h2>Bedankt voor je bestelling!</h2>
+
+<p><strong>Naam:</strong> @Model.Naam</p>
+<p><strong>Adres:</strong> @Model.Adres</p>
+<p><strong>Betaalmethode:</strong> @Model.Betaalmethode</p>
+
+<a asp-page="/Index" class="btn btn-primary mt-3">Terug naar home</a>

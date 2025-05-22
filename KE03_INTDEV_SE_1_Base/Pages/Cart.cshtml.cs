@@ -40,5 +40,15 @@ namespace KE03_INTDEV_SE_1_Base.Pages
 
             return RedirectToPage();
         }
+        
+        public IActionResult OnPostGaNaarCheckout()
+        {
+            return RedirectToPage("/Checkout");
+        }
+        
+        public IActionResult OnPostGaNaarHome()
+        {
+            return RedirectToPage("/Index");
+        }
     }
 }

@@ -51,7 +51,8 @@ namespace DataAccessLayer
                 new Part { Name = "Tandwiel", Description = "Overdracht van rotatie in bijvoorbeeld de motor of luikmechanismen", Img = "/Images/tandwiel.png", Price = 27},
                 new Part { Name = "M5 Boutje", Description = "Bevestiging van panelen, buizen of interne modules", Img = "/Images/m5-boutje.png", Price = 25},
                 new Part { Name = "Hydraulische cilinder", Description = "Openen/sluiten van zware luchtsluizen of bewegende onderdelen", Img = "/Images/hydraulische-cilinder.png", Price = 250},
-                new Part { Name = "Koelvloeistofpomp", Description = "Koeling van de motor of elektronische systemen.", Img = "/Images/koelvloeistofpomp.png", Price = 200}
+                new Part { Name = "Koelvloeistofpomp", Description = "Koeling van de motor of elektronische systemen.", Img = "/Images/koelvloeistofpomp.png", Price = 200},
+                new Part { Name = "Test", Description = "Dit is een test.", Img = "/Images/test.png", Price = 1}
             };
             context.Parts.AddRange(parts);
 

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "hJGVWZ1NajhxKBVeNShr+TcUuNP81XGGquJ7Ys5wtmc=",
+  "Hash": "KU6QF/T/fhR1NUzW88Q0ODduCa7zKxSDWZV1yu77Lt0=",
   "Source": "KE03_INTDEV_SE_1_Base",
   "BasePath": "_content/KE03_INTDEV_SE_1_Base",
   "Mode": "Default",
@@ -73,8 +73,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "fosamezn9b",
-      "Integrity": "r22M7xOahcMheWCkoVof2Nt7pQmj7mMSFKTei+SfmQ0=",
+      "Fingerprint": "bogurtxcuo",
+      "Integrity": "FbGHfAlxgkvN5Fu4hqWGEWXpLiLMdCtZD5mRGue5Yow=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/css/site.css"
@@ -204,6 +204,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/Images/tandwiel.png"
+    },
+    {
+      "Identity": "/Users/daanros/MatrixWebShop/KE03_INTDEV_SE_1_Base/wwwroot/Images/test.png",
+      "SourceId": "KE03_INTDEV_SE_1_Base",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/daanros/MatrixWebShop/KE03_INTDEV_SE_1_Base/wwwroot/",
+      "BasePath": "_content/KE03_INTDEV_SE_1_Base",
+      "RelativePath": "Images/test#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ngay0mkne5",
+      "Integrity": "d4Epi4rOIe90moteVHYNqlffDKCUar4AJESCEs9Bfbs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/Images/test.png"
     },
     {
       "Identity": "/Users/daanros/MatrixWebShop/KE03_INTDEV_SE_1_Base/wwwroot/js/site.js",
@@ -1426,6 +1447,51 @@
   ],
   "Endpoints": [
     {
+      "Route": "css/site.bogurtxcuo.css",
+      "AssetFile": "/Users/daanros/MatrixWebShop/KE03_INTDEV_SE_1_Base/wwwroot/css/site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "675"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FbGHfAlxgkvN5Fu4hqWGEWXpLiLMdCtZD5mRGue5Yow=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 11:56:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bogurtxcuo"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-FbGHfAlxgkvN5Fu4hqWGEWXpLiLMdCtZD5mRGue5Yow="
+        }
+      ]
+    },
+    {
       "Route": "css/site.css",
       "AssetFile": "/Users/daanros/MatrixWebShop/KE03_INTDEV_SE_1_Base/wwwroot/css/site.css",
       "Selectors": [],
@@ -1436,7 +1502,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "341"
+          "Value": "675"
         },
         {
           "Name": "Content-Type",
@@ -1444,11 +1510,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"r22M7xOahcMheWCkoVof2Nt7pQmj7mMSFKTei+SfmQ0=\""
+          "Value": "\"FbGHfAlxgkvN5Fu4hqWGEWXpLiLMdCtZD5mRGue5Yow=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 22 May 2025 09:26:53 GMT"
+          "Value": "Thu, 22 May 2025 11:56:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1458,52 +1524,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-r22M7xOahcMheWCkoVof2Nt7pQmj7mMSFKTei+SfmQ0="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.fosamezn9b.css",
-      "AssetFile": "/Users/daanros/MatrixWebShop/KE03_INTDEV_SE_1_Base/wwwroot/css/site.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "341"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"r22M7xOahcMheWCkoVof2Nt7pQmj7mMSFKTei+SfmQ0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 22 May 2025 09:26:53 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "fosamezn9b"
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-r22M7xOahcMheWCkoVof2Nt7pQmj7mMSFKTei+SfmQ0="
+          "Value": "sha256-FbGHfAlxgkvN5Fu4hqWGEWXpLiLMdCtZD5mRGue5Yow="
         }
       ]
     },
@@ -2000,6 +2021,88 @@
       ]
     },
     {
+      "Route": "Images/test.ngay0mkne5.png",
+      "AssetFile": "/Users/daanros/MatrixWebShop/KE03_INTDEV_SE_1_Base/wwwroot/Images/test.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "37563"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"d4Epi4rOIe90moteVHYNqlffDKCUar4AJESCEs9Bfbs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 11:33:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ngay0mkne5"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/test.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-d4Epi4rOIe90moteVHYNqlffDKCUar4AJESCEs9Bfbs="
+        }
+      ]
+    },
+    {
+      "Route": "Images/test.png",
+      "AssetFile": "/Users/daanros/MatrixWebShop/KE03_INTDEV_SE_1_Base/wwwroot/Images/test.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "37563"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"d4Epi4rOIe90moteVHYNqlffDKCUar4AJESCEs9Bfbs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 11:33:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-d4Epi4rOIe90moteVHYNqlffDKCUar4AJESCEs9Bfbs="
+        }
+      ]
+    },
+    {
       "Route": "js/site.js",
       "AssetFile": "/Users/daanros/MatrixWebShop/KE03_INTDEV_SE_1_Base/wwwroot/js/site.js",
       "Selectors": [],
@@ -2104,7 +2207,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 20 May 2025 07:49:19 GMT"
+          "Value": "Thu, 22 May 2025 11:53:54 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2141,7 +2244,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 20 May 2025 07:49:19 GMT"
+          "Value": "Thu, 22 May 2025 11:53:54 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2178,7 +2281,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 20 May 2025 07:49:19 GMT"
+          "Value": "Thu, 22 May 2025 11:53:54 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2223,7 +2326,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 20 May 2025 07:49:19 GMT"
+          "Value": "Thu, 22 May 2025 11:53:54 GMT"
         },
         {
           "Name": "Cache-Control",
