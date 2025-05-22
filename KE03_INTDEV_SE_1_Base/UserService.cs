@@ -14,15 +14,33 @@ namespace DataAccessLayer.Models
             if (_context.Users.Any(u => u.Gebruikersnaam == gebruiker.Gebruikersnaam))
                 return false;
 
+            var customer = new Customer
+            {
+                Name = gebruiker.Gebruikersnaam,
+                Address = "Onbekend",
+                Active = true
+            };
+
+            gebruiker.Customer = customer;
+
             _context.Users.Add(gebruiker);
             _context.SaveChanges();
             return true;
         }
 
-        public bool Inloggen(string gebruikersnaam, string wachtwoord)
+        public bool Inloggen(string gebruikersnaam, string wachtwoord, out int gebruikerId)
         {
-            return _context.Users.Any(u =>
-                u.Gebruikersnaam == gebruikersnaam && u.Wachtwoord == wachtwoord);
+            var gebruiker = _context.Users
+                .FirstOrDefault(u => u.Gebruikersnaam == gebruikersnaam && u.Wachtwoord == wachtwoord);
+
+            if (gebruiker != null)
+            {
+                gebruikerId = gebruiker.Id;
+                return true;
+            }
+
+            gebruikerId = 0;
+            return false;
         }
     }
 }

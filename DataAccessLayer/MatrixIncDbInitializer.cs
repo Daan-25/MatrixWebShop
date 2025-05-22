@@ -32,10 +32,10 @@ namespace DataAccessLayer
 
             var orders = new Order[]
             {
-                new Order { Customer = customers[0], OrderDate = DateTime.Parse("2021-01-01")},
-                new Order { Customer = customers[0], OrderDate = DateTime.Parse("2021-02-01")},
-                new Order { Customer = customers[1], OrderDate = DateTime.Parse("2021-02-01")},
-                new Order { Customer = customers[2], OrderDate = DateTime.Parse("2021-03-01")}
+                new Order { Customer = customers[0], OrderDate = DateTime.Parse("2021-01-01"), PaymentMethod = "Ideal"},
+                new Order { Customer = customers[0], OrderDate = DateTime.Parse("2021-02-01"), PaymentMethod = "Ideal"},
+                new Order { Customer = customers[1], OrderDate = DateTime.Parse("2021-02-01"), PaymentMethod = "Ideal"},
+                new Order { Customer = customers[2], OrderDate = DateTime.Parse("2021-03-01"), PaymentMethod = "Ideal"}
             };  
             context.Orders.AddRange(orders);
 
@@ -59,8 +59,9 @@ namespace DataAccessLayer
             
             var users = new User[]
             {
-                new User { Gebruikersnaam = "admin", Wachtwoord = "admin123" },
-                new User { Gebruikersnaam = "neo", Wachtwoord = "matrix" }
+                new User { Gebruikersnaam = "admin", Wachtwoord = "admin123", Customer = customers[0] },
+                new User { Gebruikersnaam = "neo", Wachtwoord = "matrix", Customer = customers[1] },
+                new User { Gebruikersnaam = "trinity", Wachtwoord = "trinity", Customer = customers[2]}
             };
             context.Users.AddRange(users);
 

@@ -24,11 +24,12 @@ public class LoginModel : PageModel
 
     public async Task<IActionResult> OnPostAsync()
     {
-        if (_userService.Inloggen(Gebruikersnaam, Wachtwoord))
+        if (_userService.Inloggen(Gebruikersnaam, Wachtwoord, out int gebruikerId))
         {
             var claims = new List<Claim>
             {
-                new Claim(ClaimTypes.Name, Gebruikersnaam)
+                new Claim(ClaimTypes.Name, Gebruikersnaam),
+                new Claim("GebruikerId", gebruikerId.ToString())
             };
 
             var identity = new ClaimsIdentity(claims, "MyCookieAuth");

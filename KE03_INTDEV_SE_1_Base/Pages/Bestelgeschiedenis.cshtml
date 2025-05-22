@@ -1,0 +1,32 @@
+@page
+@model BestelgeschiedenisModel
+@{
+    ViewData["Title"] = "Bestelgeschiedenis";
+}
+
+<h2>Bestelgeschiedenis</h2>
+
+@if (Model.Bestellingen != null && Model.Bestellingen.Any())
+{
+    <table class="table">
+        <thead>
+        <tr>
+            <th>Ordernummer</th>
+            <th>Datum</th>
+        </tr>
+        </thead>
+        <tbody>
+        @foreach (var order in Model.Bestellingen)
+        {
+            <tr>
+                <td>@order.Id</td>
+                <td>@order.OrderDate.ToShortDateString()</td>
+            </tr>
+        }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>Er zijn geen bestellingen gevonden.</p>
+}
