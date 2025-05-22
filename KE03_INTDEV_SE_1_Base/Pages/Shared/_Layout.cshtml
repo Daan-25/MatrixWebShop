@@ -4,41 +4,48 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - Matrix Inc</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark border-bottom box-shadow mb-3">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm">
             <div class="container">
-                <a class="navbar-brand" asp-area="" asp-page="/Index">
-                    <img src="~/Images/logo.png" height="70px" width="70px" alt="Logo">
+                <a class="navbar-brand d-flex align-items-center gap-2" asp-area="" asp-page="/Index">
+                    <img src="~/Images/logo.png" alt="Logo" height="50" width="50" class="rounded" />
+                    <span class="fw-bold">Matrix Inc.</span>
                 </a>
-                <li><a asp-page="/Bestelgeschiedenis">Bestelgeschiedenis</a></li>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" 
-                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
+                        aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
+
+                <div class="collapse navbar-collapse" id="navbarContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link" asp-area="" asp-page="/Index">Home</a>
+                            <a class="nav-link" asp-page="/Index">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-page="/Bestelgeschiedenis">Bestelgeschiedenis</a>
                         </li>
                     </ul>
-                    @if (User.Identity.IsAuthenticated)
-                    {
-                        <p>Welkom, @User.Identity.Name</p>
-                        <a href="/Logout">Uitloggen</a>
-                    }
-                    else
-                    {
-                        <a href="/Login">Inloggen</a>
-                    }
-                    <div class="d-flex align-items-center gap-4">
-                        <a class="btn btn-outline-secondary" asp-page="/Cart" title="Winkelwagen">
+
+                    <div class="d-flex align-items-center gap-3">
+                        @if (User.Identity.IsAuthenticated)
+                        {
+                            <span class="text-white me-2">Welkom, @User.Identity.Name</span>
+                            <a class="btn btn-sm btn-outline-light" href="/Logout">Uitloggen</a>
+                        }
+                        else
+                        {
+                            <a class="btn btn-sm btn-outline-light" href="/Login">Inloggen</a>
+                        }
+
+                        <a class="btn btn-outline-secondary position-relative" asp-page="/Cart" title="Winkelwagen">
                             <i class="bi bi-cart"></i>
                         </a>
+
                         <button class="btn btn-outline-secondary" id="themeToggle" title="Toggle dark/light mode">
                             <i class="bi bi-moon-fill" id="themeIcon"></i>
                         </button>
@@ -48,17 +55,15 @@
         </nav>
     </header>
 
-    <div class="container">
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
-    </div>
+    <main class="container my-4">
+        @RenderBody()
+    </main>
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2025 - Matrix Inc - <a asp-area="" asp-page="/Privacy">Privacy</a>
-        </div>
-    </footer>
+<footer class="footer mt-auto py-3 bg-body border-top">
+    <div class="container text-center text-body-secondary">
+        &copy; 2025 - Matrix Inc - <a asp-area="" asp-page="/Privacy" class="text-decoration-none">Privacy</a>
+    </div>
+</footer>
 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>

@@ -53,7 +53,7 @@ namespace KE03_INTDEV_SE_1_Base.Pages
                 PaymentMethod = Betaalmethode, // Zorg dat dit veld bestaat in je model
                 OrderItems = cart.Select(item => new OrderItem
                 {
-                    ProductId = item.Part.Id,
+                    PartId = item.Part.Id,
                     Aantal = item.Aantal
                 }).ToList()
             };

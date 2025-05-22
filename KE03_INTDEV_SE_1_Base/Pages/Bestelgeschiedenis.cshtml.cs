@@ -27,6 +27,8 @@ public class BestelgeschiedenisModel : PageModel
             if (gebruiker?.Customer != null)
             {
                 Bestellingen = _context.Orders
+                    .Include(o => o.OrderItems)
+                    .ThenInclude(oi => oi.Part)
                     .Where(o => o.CustomerId == gebruiker.Customer.Id)
                     .ToList();
             }

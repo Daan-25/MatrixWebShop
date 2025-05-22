@@ -64,6 +64,15 @@ namespace DataAccessLayer
                 new User { Gebruikersnaam = "trinity", Wachtwoord = "trinity", Customer = customers[2]}
             };
             context.Users.AddRange(users);
+            
+            var orderItems = new OrderItem[]
+            {
+                new OrderItem { Order = orders[0], Part = parts[0], Aantal = 1 },
+                new OrderItem { Order = orders[0], Part = parts[2], Aantal = 2 },
+                new OrderItem { Order = orders[1], Part = parts[1], Aantal = 3 },
+                new OrderItem { Order = orders[2], Part = parts[0], Aantal = 1 }
+            };
+            context.OrderItems.AddRange(orderItems);
 
             context.SaveChanges();
 

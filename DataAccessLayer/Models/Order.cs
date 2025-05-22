@@ -32,9 +32,9 @@ namespace DataAccessLayer.Models
         
         public Order Order { get; set; }
 
-        public int ProductId { get; set; }
+        public int PartId { get; set; }
         
-        public Part Product { get; set; }
+        public Part? Part { get; set; }
 
         public int Aantal { get; set; }
     }

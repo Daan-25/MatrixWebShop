@@ -13,6 +13,7 @@
         <tr>
             <th>Ordernummer</th>
             <th>Datum</th>
+            <th>Producten</th>
         </tr>
         </thead>
         <tbody>
@@ -21,6 +22,14 @@
             <tr>
                 <td>@order.Id</td>
                 <td>@order.OrderDate.ToShortDateString()</td>
+                <td>
+                    <ul>
+                        @foreach (var item in order.OrderItems)
+                        {
+                            <li>@item.Part?.Name - Aantal: @item.Aantal</li>
+                        }
+                    </ul>
+                </td>
             </tr>
         }
         </tbody>
