@@ -1,0 +1,25 @@
+@page
+@model RegisterModel
+
+@{
+    ViewData["Title"] = "Registreren";
+}
+
+<h2>Registreren</h2>
+
+<form method="post">
+    <div class="mb-3">
+        <label>Gebruikersnaam</label>
+        <input type="text" name="Gebruikersnaam" class="form-control" required />
+    </div>
+    <div class="mb-3">
+        <label>Wachtwoord</label>
+        <input type="password" name="Wachtwoord" class="form-control" required />
+    </div>
+    <button type="submit" class="btn btn-primary">Account aanmaken</button>
+
+    @if (!string.IsNullOrEmpty(Model.Foutmelding))
+    {
+        <div class="alert alert-danger mt-3">@Model.Foutmelding</div>
+    }
+</form>

@@ -25,6 +25,15 @@
                             <a class="nav-link" asp-area="" asp-page="/Index">Home</a>
                         </li>
                     </ul>
+                    @if (User.Identity.IsAuthenticated)
+                    {
+                        <p>Welkom, @User.Identity.Name</p>
+                        <a href="/Logout">Uitloggen</a>
+                    }
+                    else
+                    {
+                        <a href="/Login">Inloggen</a>
+                    }
                     <div class="d-flex align-items-center gap-4">
                         <a class="btn btn-outline-secondary" asp-page="/Cart" title="Winkelwagen">
                             <i class="bi bi-cart"></i>

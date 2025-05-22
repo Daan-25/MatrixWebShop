@@ -66,3 +66,13 @@
 /Users/daanros/MatrixWebShop/KE03_INTDEV_SE_1_Base/obj/Debug/net8.0/ref/KE03_INTDEV_SE_1_Base.dll
 /Users/daanros/MatrixWebShop/KE03_INTDEV_SE_1_Base/obj/Debug/net8.0/KE03_INTDEV_SE_1_Base.sourcelink.json
 /Users/daanros/MatrixWebShop/KE03_INTDEV_SE_1_Base/bin/Debug/net8.0/Newtonsoft.Json.dll
+/Users/daanros/MatrixWebShop/KE03_INTDEV_SE_1_Base/bin/Debug/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/Users/daanros/MatrixWebShop/KE03_INTDEV_SE_1_Base/bin/Debug/net8.0/Microsoft.Extensions.Diagnostics.Abstractions.dll
+/Users/daanros/MatrixWebShop/KE03_INTDEV_SE_1_Base/bin/Debug/net8.0/Microsoft.Extensions.Hosting.Abstractions.dll
+/Users/daanros/MatrixWebShop/KE03_INTDEV_SE_1_Base/bin/Debug/net8.0/Microsoft.Extensions.Logging.Abstractions.dll
+/Users/daanros/MatrixWebShop/KE03_INTDEV_SE_1_Base/bin/Debug/net8.0/Microsoft.Extensions.ObjectPool.dll
+/Users/daanros/MatrixWebShop/KE03_INTDEV_SE_1_Base/bin/Debug/net8.0/Microsoft.Extensions.Options.dll
+/Users/daanros/MatrixWebShop/KE03_INTDEV_SE_1_Base/bin/Debug/net8.0/Microsoft.Extensions.WebEncoders.dll
+/Users/daanros/MatrixWebShop/KE03_INTDEV_SE_1_Base/bin/Debug/net8.0/System.Security.Cryptography.Pkcs.dll
+/Users/daanros/MatrixWebShop/KE03_INTDEV_SE_1_Base/bin/Debug/net8.0/System.Security.Cryptography.Xml.dll
+/Users/daanros/MatrixWebShop/KE03_INTDEV_SE_1_Base/bin/Debug/net8.0/runtimes/win/lib/net8.0/System.Security.Cryptography.Pkcs.dll

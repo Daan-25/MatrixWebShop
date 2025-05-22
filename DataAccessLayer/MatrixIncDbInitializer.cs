@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using DataAccessLayer.Models;
 
 namespace DataAccessLayer
 {
@@ -55,6 +56,13 @@ namespace DataAccessLayer
                 new Part { Name = "Test", Description = "Dit is een test.", Img = "/Images/test.png", Price = 1}
             };
             context.Parts.AddRange(parts);
+            
+            var users = new User[]
+            {
+                new User { Gebruikersnaam = "admin", Wachtwoord = "admin123" },
+                new User { Gebruikersnaam = "neo", Wachtwoord = "matrix" }
+            };
+            context.Users.AddRange(users);
 
             context.SaveChanges();
 

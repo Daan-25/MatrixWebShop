@@ -9,6 +9,7 @@ namespace DataAccessLayer
         {
         }
 
+        public DbSet<User> Users { get; set; }
         public DbSet<Customer> Customers { get; set; }
         public DbSet<Order> Orders { get; set; }
         public DbSet<Product> Products { get; set; }
@@ -20,11 +21,6 @@ namespace DataAccessLayer
                 .HasMany(c => c.Orders)
                 .WithOne(o => o.Customer)
                 .HasForeignKey(o => o.CustomerId).IsRequired();
-
-            //modelBuilder.Entity<Order>()
-            //    .HasOne(o => o.Customer)
-            //    .WithMany(c => c.Orders)
-            //    .OnDelete(DeleteBehavior.Restrict);
 
             modelBuilder.Entity<Product>()
                 .HasMany(p => p.Orders)

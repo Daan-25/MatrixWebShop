@@ -1,5 +1,6 @@
 using DataAccessLayer;
 using DataAccessLayer.Interfaces;
+using DataAccessLayer.Models;
 using DataAccessLayer.Repositories;
 using Microsoft.EntityFrameworkCore;
 
@@ -26,6 +27,15 @@ namespace KE03_INTDEV_SE_1_Base
             builder.Services.AddScoped<IOrderRepository, OrderRepository>();
             builder.Services.AddScoped<IProductRepository, ProductRepository>();
             builder.Services.AddScoped<IPartRepository, PartRepository>();
+            builder.Services.AddScoped<UserService>();
+            
+            builder.Services.AddAuthentication("MyCookieAuth")
+                .AddCookie("MyCookieAuth", options =>
+                {
+                    options.LoginPath = "/Login";
+                });
+
+            builder.Services.AddAuthorization();
             
             builder.Services.AddRazorPages();
 
@@ -47,12 +57,15 @@ namespace KE03_INTDEV_SE_1_Base
             }
 
             app.UseHttpsRedirection();
+            
             app.UseStaticFiles();
             
             app.UseSession();
 
             app.UseRouting();
-
+            
+            app.UseAuthentication();
+            
             app.UseAuthorization();
 
             app.MapRazorPages();

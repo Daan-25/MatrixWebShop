@@ -1,0 +1,25 @@
+@page
+@model LoginModel
+@{
+    ViewData["Title"] = "Inloggen";
+}
+
+<h2>Inloggen</h2>
+
+<form method="post">
+    <div class="mb-3">
+        <label for="gebruiker">Gebruikersnaam</label>
+        <input type="text" name="Gebruikersnaam" class="form-control" required />
+    </div>
+    <div class="mb-3">
+        <label for="wachtwoord">Wachtwoord</label>
+        <input type="password" name="Wachtwoord" class="form-control" required />
+    </div>
+    <button type="submit" class="btn btn-primary">Inloggen</button>
+    <a asp-page="/Register" class="btn btn-link">Nog geen account?</a>
+
+    @if (!string.IsNullOrEmpty(Model.Foutmelding))
+    {
+        <div class="alert alert-danger mt-3">@Model.Foutmelding</div>
+    }
+</form>
