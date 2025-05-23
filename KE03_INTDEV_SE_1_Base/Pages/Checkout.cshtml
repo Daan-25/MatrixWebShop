@@ -9,7 +9,7 @@
 <form method="post">
     <div class="mb-3">
         <label class="form-label">Naam</label>
-        <input type="text" asp-for="Naam" class="form-control" required />
+        <input type="text" asp-for="Naam" value="@Model.User.Identity.Name" class="form-control" required />
     </div>
     <div class="mb-3">
         <label class="form-label">Adres</label>
@@ -24,5 +24,5 @@
             <option value="Bitcoin">Bitcoin</option>
         </select>
     </div>
-    <button type="submit" class="btn btn-primary">Bestelling plaatsen</button>
+    <button type="submit" class="btn btn-success">Bestelling plaatsen</button>
 </form>

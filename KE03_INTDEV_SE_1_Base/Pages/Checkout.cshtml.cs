@@ -37,20 +37,20 @@ namespace KE03_INTDEV_SE_1_Base.Pages
             var gebruikerIdClaim = User.FindFirst("GebruikerId")?.Value;
 
             if (!int.TryParse(gebruikerIdClaim, out int gebruikerId))
-                return RedirectToPage("/Login"); // eventueel foutafhandeling
+                return RedirectToPage("/Login");
 
             var gebruiker = _context.Users
                 .Include(u => u.Customer)
                 .FirstOrDefault(u => u.Id == gebruikerId);
 
             if (gebruiker?.Customer == null)
-                return RedirectToPage("/Login"); // of foutmelding
+                return RedirectToPage("/Login");
             
             var order = new Order
             {
                 CustomerId = gebruiker.Customer.Id,
                 OrderDate = DateTime.Now,
-                PaymentMethod = Betaalmethode, // Zorg dat dit veld bestaat in je model
+                PaymentMethod = Betaalmethode,
                 OrderItems = cart.Select(item => new OrderItem
                 {
                     PartId = item.Part.Id,

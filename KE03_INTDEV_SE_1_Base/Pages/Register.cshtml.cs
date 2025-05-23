@@ -30,7 +30,7 @@ public class RegisterModel : PageModel
         if (_userService.Registreer(gebruiker))
         {
             TempData["Gebruiker"] = Gebruikersnaam;
-            return RedirectToPage("/Index");
+            return RedirectToPage("/Login");
         }
 
         Foutmelding = "Gebruikersnaam bestaat al.";
